@@ -1,0 +1,55 @@
+Tên trò chơi: Đoán số may mắn
+
+Mục tiêu: Người chơi cố gắng đoán số ngẫu nhiên và chính xác mà máy tính đã tạo ra.
+
+Luật chơi:
+
+Máy tính sẽ tạo ra một số ngẫu nhiên từ 1 đến 20 và giữ kết quả bí mật. Đây là số mà người chơi cần phải đoán.
+
+Người chơi có 3 lượt để đoán chính xác số đó.
+
+Trong mỗi lượt, người chơi sẽ nhập một số và máy tính sẽ cung cấp thông báo về việc giảm hoặc tăng số mà người chơi đã đoán so với số may mắn.
+
+Nếu số đoán của người chơi lớn hơn số may mắn, máy tính sẽ thông báo: "Giảm số xuống đi bạn ơi !"
+Nếu số đoán của người chơi nhỏ hơn số may mắn, máy tính sẽ thông báo: "Tăng số lên đi bạn !"
+Nếu người chơi đoán chính xác số may mắn trong một trong 3 lượt, họ thắng cuộc và máy tính sẽ thông báo: "Bạn đã thắng !". Họ cũng có cơ hội nhận thêm tiền thưởng với số lượt còn lại.
+
+
+///
+Tên trò chơi: Tài Xỉu
+
+Mục tiêu: Người chơi cố gắng dự đoán kết quả của việc ném ba xúc xắc và đặt cược theo một trong hai tùy chọn: Tài (tổng giá trị của ba xúc xắc lớn hơn 10) hoặc Xỉu (tổng giá trị nhỏ hơn hoặc bằng 10).
+
+Luật chơi:
+
+Người chơi sẽ được yêu cầu chọn một trong hai tùy chọn: Tài hoặc Xỉu. Tùy chọn Tài đặt cược rằng tổng giá trị của ba xúc xắc sau khi ném sẽ lớn hơn 10, trong khi tùy chọn Xỉu đặt cược rằng tổng giá trị sẽ nhỏ hơn hoặc bằng 10.
+
+Máy tính sẽ ném ba xúc xắc và tính tổng giá trị của chúng.
+
+Người chơi sẽ được thông báo về kết quả của lần ném và xem xét xem họ đã đoán đúng hay sai.
+
+Nếu người chơi đã đặt cược đúng (Tài hoặc Xỉu) và tổng giá trị của ba xúc xắc sau khi ném phù hợp với lựa chọn của họ, họ thắng cuộc và nhận tiền thưởng.
+
+Nếu người chơi đã đặt cược sai, họ sẽ thua cuộc và mất tiền đặt cược.
+
+///
+Tên trò chơi: Số Chia May Mắn
+
+Mục tiêu: Người chơi cố gắng đặt cược vào một số trong danh sách các số (2, 3, 5, 7 hoặc 9) và dự đoán xem số ngẫu nhiên đó chia hết cho số người chơi chọn hay không.
+
+Luật chơi:
+
+Người chơi sẽ được yêu cầu chọn một số từ danh sách các số có sẵn: 2, 3, 5, 7 hoặc 9.
+
+Máy tính sẽ tạo ra một số ngẫu nhiên từ 1 đến 1000.
+
+Nếu người chơi chọn một số không hợp lệ (khác với 2, 3, 5, 7 hoặc 9), họ sẽ thua cuộc và mất tiền đặt cược.
+
+Nếu số ngẫu nhiên được tạo ra chia hết cho số mà người chơi đã chọn, họ sẽ thắng và nhận được một số tiền thưởng dựa trên số đó chia hết cho bao nhiêu số trong danh sách của họ.
+Lưu ý: Nếu số ngẫu nhiên đó cũng chia hết cho các số khác thì cũng thua. Ví dụ: Nếu đáp án là số 300 thì coi như người chơi xui vì 300 chia hết cho 3 và cũng chia hết cho 5. 
+Game này thưởng lớn
+Nếu số ngẫu nhiên không chia hết cho số mà người chơi đã chọn, họ sẽ thua cuộc và mất tiền đặt cược.
+
+Máy tính sẽ thông báo kết quả cuối cùng, bao gồm việc người chơi thắng hoặc thua cuộc, số ngẫu nhiên được tạo ra và số tiền thưởng (nếu họ thắng).
+
+From Nguyễn Quốc Bảo
