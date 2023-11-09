@@ -14,12 +14,12 @@ void guess_number::get_result() {
 void guess_number::set_Selection() {
     count = 1;
     for(; count <= 3;count++) {
-        std::cout << "Lượt thứ " << count <<": ";
+        std::cout << "Lượt thứ " << count <<" (1 - 20): ";
         std::cin >> selection;
         if(selection == result) {
             std::cout << "Bạn đã thắng !" << std::endl;
             win_lose = true;
-            bonus(5 - count);
+            bonus(7 - count);
             break;
         }
         else {
